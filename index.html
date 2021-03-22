@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <a href="#main"><img src="img/oor2.png" alt="ofs" id="header-img" /></a>
+        <ul>
+          <li><a href="#video" class="nav-link">Home</a></li>
+          <li><a href="#tribute-info" class="nav-link">Albums</a></li>
+          <li><a href="#follow" class="nav-link">Follow</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="videos">
+      <div  class="video">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/uyaKoj7wABY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="g-ytsubscribe" data-channelid="UCzycs8MqvIY4nXWwS-v4J9g" data-layout="full" data-count="default"></div>
+    </section>
+
+    <section>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h3>Masukan Email untuk update terbaru</h3>
+        <input name="email" type="email" id="email" placeholder="Masukan email anda!" required />
+        <input type="submit" id="submit">Submit</input>
+      </form>
+    </section>
+
+    <section id="tribute-info">
+      <h3>Albums</h3>
+      <ul>
+        <li class="album">
+          <a href="https://www.oneokrock.com/jp/music/2581" target="_blank">
+            <img src="https://www.oneokrock.com/wp-content/uploads/2018/11/Eye-of-the-Storm_FBR_JK2.jpg" alt="eye-of-the-storm" class="album-img" />
+            <div class="album-overlay">
+              <div class="realease-date">2019-02-15</div>
+              <div class="album-name">Eye of The Storm</div>
+            </div>
+          </a>
+        </li>
+        <li class="album">
+          <a href="https://www.oneokrock.com/jp/music/1703" target="_blank">
+            <img src="https://www.oneokrock.com/wp-content/uploads/2016/11/Ambitions_H1_fix-e1479377906268.jpg" alt="ambitions" class="album-img" />
+            <div class="album-overlay">
+              <div class="realease-date">2017-01-11</div>
+              <div class="album-name">Ambitions</div>
+            </div>
+          </a>
+        </li>
+        <li class="album">
+          <a href="https://www.oneokrock.com/jp/music/649" target="_blank">
+            <img src="https://www.oneokrock.com/wp-content/uploads/2014/12/e44732e17923e291c3003e81b36bc6fc-e1418581521334.jpg" alt="35xxxv" class="album-img" />
+            <div class="album-overlay">
+              <div class="realease-date">2015-02-11</div>
+              <div class="album-name">35xxxv</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="follow">
+      <h2>Follow One Ok Rock</h2>
+      <ul>
+        <li>
+          <a href="https://www.oneokrock.com" id="tribute-link" target="_blank"><i class="fas fa-globe"></i></a>
+        </li>
+        <li>
+          <a href="http://instagram.com/oneokrockofficial" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/ONEOKROCK" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/user/ONEOKROCKchannel" target="_blank"><i class="fab fa-youtube"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
